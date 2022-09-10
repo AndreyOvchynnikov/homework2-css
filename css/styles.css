@@ -1,16 +1,24 @@
+.link{
+    text-decoration: none;
+}
+.list {
+    list-style: none;
+}
+.address {
+    font-style: normal;
+}
 body {
 background-color: #E5E5E5;
+font-family: 'Roboto';
 }
 .header {
-    background-color: #FFFFFF;
     font-size: 14px;
+    background-color: #FFFFFF;
 }
 .nav-list {
     font-weight: 500;
-    list-style-type: none;   
 }
 .nav-list-item {
-text-decoration: none;
 color: #212121;
 }
 .nav-list-item:focus {
@@ -21,11 +29,9 @@ color: #212121;
 }
 .header-part-right {
     font-weight: 500;
-    list-style-type: none;
 }
 .header-part-right-item {
     color: #757575;
-    text-decoration: none;
 }
 .header-part-right-item:focus {
     color: #2196F3;
@@ -34,10 +40,10 @@ color: #212121;
     color: #2196F3;   
 }
 .header-logo {
-    text-decoration: none;
     font-weight: 700;
     color: #000000;
     font-size: 26px;
+    font-family: 'Raleway';
 }
 .header-logo:hover {
     text-decoration: underline;
