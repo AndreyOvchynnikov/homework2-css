@@ -1,3 +1,16 @@
+:root {
+    --main-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+    --accent-color: rgba(33, 150, 243, 1);
+    --primary-color: rgba(33, 33, 33, 1);
+    --secondary-color: rgba(117, 117, 117, 1);
+    --third-color: rgba(255, 255, 255, 1);
+}
+body {
+color: var(--primary-color);
+font-family: var(--main-font);
+background-color: #E5E5E5;
+}
 .link{
     text-decoration: none;
 }
@@ -7,52 +20,95 @@
 .address {
     font-style: normal;
 }
-body {
-background-color: #E5E5E5;
-font-family: 'Roboto';
-}
+/* ========= HEADER ========== */
 .header {
-    font-size: 14px;
-    background-color: #FFFFFF;
+    background-color: var(--third-color);
 }
-.nav-list {
-    font-weight: 500;
+.logo {
+font-family: var(--secondary-font);
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: var(--accent-color);
 }
-.nav-list-item {
-color: #212121;
+.logo-part-right {
+    color: var(--primary-color);
 }
-.nav-list-item:focus {
-    color: #2196F3;  
-}
-.nav-list-item:hover {
-   color: #2196F3 
-}
-.header-part-right {
-    font-weight: 500;
-}
-.header-part-right-item {
-    color: #757575;
-}
-.header-part-right-item:focus {
-    color: #2196F3;
-}
-.header-part-right-item:hover {
-    color: #2196F3;   
-}
-.header-logo {
-    font-weight: 700;
-    color: #000000;
-    font-size: 26px;
-    font-family: 'Raleway';
-}
-.header-logo:hover {
+.logo:hover,
+.logo:focus {
     text-decoration: underline;
-    text-decoration-color: #2196F3;
 }
-.header-logo:focus {
-    text-decoration: underline;
-    text-decoration-color: #2196F3;
+.nav-item-link {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--primary-color);
 }
-.header-logo-left-part {
-    color: #2196F3;
+.nav-item-link:hover,
+.nav-item-link:focus {
+    color: var(--accent-color);
 }
+.visited:visited {
+    color: var(--accent-color);
+}
+.header-contacts-link {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--secondary-color);
+}
+.header-contacts-link:hover,
+.header-contacts-link:focus {
+    color: var(--accent-color);
+}
+/* ======== END HEADER ======= */
+
+/* ========== HERO =========== */
+.hero {
+    background-color: rgba(47, 48, 58, 1);
+}
+.hero-title {
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: var(--third-color)
+}
+.modal-btn {
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: var(--third-color);
+background-color: var(--accent-color);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.modal-btn:hover,
+.modal-btn:focus {
+background-color: rgba(24, 140, 232, 1);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);   
+}
+/* ======== END HERO ========= */
+
+/* ======== BENEFITS ========= */
+.benefits-list-title {
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+.benefits-list-text {
+font-size: 14px;
+line-height: 1.71;
+color: var(--secondary-color)
+}
+/* ======= END BENEFITS ======= */
