@@ -32,7 +32,7 @@ line-height: 1.19;
 letter-spacing: 0.03em;
 color: var(--accent-color);
 }
-.logo-part-right {
+.logo-part-right-header {
     color: var(--primary-color);
 }
 .logo:hover,
@@ -90,6 +90,7 @@ letter-spacing: 0.06em;
 color: var(--third-color);
 background-color: var(--accent-color);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+cursor: pointer;
 }
 .modal-btn:hover,
 .modal-btn:focus {
@@ -112,3 +113,108 @@ line-height: 1.71;
 color: var(--secondary-color)
 }
 /* ======= END BENEFITS ======= */
+
+/* ======== DEVELOPMENT ======= */
+.development-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+}
+/* ====== END DEVELOPMENT ====== */
+
+/* =========== TEAM ============ */
+.team {
+    background-color: #F5F4FA;
+}
+.team-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+}
+.team-list-item {
+background-color: var(--third-color);
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+}
+.team-list-title {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+}
+.team-list-text {
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--secondary-color);
+}
+/* ========= END TEAM ========== */
+
+/* ========== FOOTER =========== */
+.footer {
+    background-color: rgba(47, 48, 58, 1);
+}
+.logo-part-right-footer {
+    color: var(--third-color);
+}
+.adress-link {
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--third-color)
+}
+.adress-link:hover,
+.adress-link:focus {
+    color: var(--accent-color);
+}
+.adress-list-link {
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+.adress-list-link:hover,
+.adress-list-link:focus {
+color: var(--accent-color);
+}
+/* ======== END FOOTER ========= */
+
+/* ========= PORTFOLIO ========= */
+.portfolio {
+    background-color: var(--third-color);
+}
+.filters-btn {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.63;
+text-align: center;
+letter-spacing: 0.03em;
+background-color: rgba(245, 244, 250, 1);
+border-radius: 4px;
+cursor: pointer;
+}
+.filters-btn:hover,
+.filters-btn:focus {
+    color: var(--third-color);
+    background-color: var(--accent-color);
+}
+.portfolio-list-title {
+font-weight: 700;
+font-size: 18px;
+line-height: 2.00;
+letter-spacing: 0.06em;
+color: var(--primary-color);
+}
+.portfolio-list-text {
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.03em;
+color: var(--secondary-color)
+}
+/* ======= END PORTFOLIO ======= */
